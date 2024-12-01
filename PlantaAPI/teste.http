@@ -1,0 +1,81 @@
+### Testar a raiz do projeto
+GET http://localhost:5011
+
+### Listar todas as plantas
+GET http://localhost:5011/api/plantas/listar
+
+### Buscar uma planta pelo id
+GET http://localhost:5011/api/plantas/buscar/1
+
+### Deletar uma planta pelo id
+DELETE http://localhost:5011/api/plantas/deletar/1
+
+### Cadastrar planta
+POST http://localhost:5011/api/plantas/cadastrar
+Content-Type: application/json
+
+{
+    "Nome": "Planta 1",
+    "OrigemId": 1,
+    "TipoId": 1
+}
+
+### Alterar planta
+PUT http://localhost:5011/api/plantas/alterar/1
+Content-Type: application/json
+
+{
+    "Nome": "Planta nova adicionada",
+    "OrigemId": 1,
+    "TipoId": 2
+}
+
+### Cadastrar origem
+POST http://localhost:5011/api/origens/cadastrar
+Content-Type: application/json
+
+{
+    "Pais": "Italia"
+}
+
+### Listar todas as origens
+GET http://localhost:5011/api/origens/listar
+
+### Buscar origem pelo id
+GET http://localhost:5011/api/origens/buscar/1 
+
+### Deletar origem pelo id
+DELETE http://localhost:5011/api/origens/deletar/1 
+
+### Alterar origem
+PUT http://localhost:5011/api/origens/alterar/1
+Content-Type: application/json
+
+{
+    "Pais": "Pais alterado"
+}
+
+### Cadastrar Tipos de plantas
+POST http://localhost:5011/api/tipos/cadastrar
+Content-Type: application/json
+
+{
+    "Nome": "Cacto"
+}
+
+### Listar os Tipos de Plantas 
+GET http://localhost:5011/api/tipos/listar
+
+### Buscar os tipos de Plantas
+GET http://localhost:5011/api/tipos/buscar/1
+
+### Deletar um Tipo pelo id
+DELETE http://localhost:5011/api/tipos/deletar/1
+
+### Alterar o Tipo da Planta
+PUT http://localhost:5011/api/tipos/alterar/1
+Content-Type: application/json
+
+{
+    "Nome": "Samambaia"
+}

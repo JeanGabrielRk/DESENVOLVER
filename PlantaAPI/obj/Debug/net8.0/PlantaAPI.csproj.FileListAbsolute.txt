@@ -151,3 +151,4 @@ C:\Users\Jean Gabriel\OneDrive\Área de Trabalho\Engenharia de Software\Universi
 C:\Users\Jean Gabriel\OneDrive\Área de Trabalho\Engenharia de Software\Universidade Positivo\4°Semestre\Desevolvimento de software visual\NEW\PlantaAPI\obj\Debug\net8.0\PlantaAPI.pdb
 C:\Users\Jean Gabriel\OneDrive\Área de Trabalho\Engenharia de Software\Universidade Positivo\4°Semestre\Desevolvimento de software visual\NEW\PlantaAPI\obj\Debug\net8.0\PlantaAPI.genruntimeconfig.cache
 C:\Users\Jean Gabriel\OneDrive\Área de Trabalho\Engenharia de Software\Universidade Positivo\4°Semestre\Desevolvimento de software visual\NEW\PlantaAPI\obj\Debug\net8.0\ref\PlantaAPI.dll
+C:\Users\Jean Gabriel\OneDrive\Área de Trabalho\Engenharia de Software\Universidade Positivo\4°Semestre\Desevolvimento de software visual\NEW\PlantaAPI\obj\Debug\net8.0\PlantaAPI.sourcelink.json

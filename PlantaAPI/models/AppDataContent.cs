@@ -1,4 +1,4 @@
-using API.Models;
+using PlantaAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace PlantaAPI.Models
@@ -9,8 +9,13 @@ namespace PlantaAPI.Models
         public DbSet<Origem> Origens { get; set; }
         public DbSet<Tipo> Tipos { get; set; }
 
-        public AppDataContext(DbContextOptions<AppDataContext> options)
-            : base(options) { }
+        public AppDataContext(DbContextOptions<AppDataContext> options) : base(options) {}
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            // Conexão com o banco de dados SQLite
+            optionsBuilder.UseSqlite("Data Source=banco.db");
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
